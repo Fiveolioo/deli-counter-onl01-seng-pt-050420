@@ -7,7 +7,7 @@ def line(katz_deli)
     line << "#{index}. #{name}"
     end
   end
-  line
+  puts line
 end
 
 def take_a_number(katz_deli, name)
