@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli.length.each do |num=1|
+  katz_deli.each.with_index(1) do |num|
   puts "Welcome, #{name}. You are number #{num} in line."
   end
 end
