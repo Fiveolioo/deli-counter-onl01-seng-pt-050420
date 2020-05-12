@@ -7,6 +7,7 @@ def line(katz_deli)
     katz_deli.each.with_index |name, index=1|
     line << "#{index}. #{name}"
   end
+  line
 end
 
 def take_a_number(katz_deli, name)
