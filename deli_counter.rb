@@ -13,6 +13,7 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.length.each do |num=1|
   puts "Welcome, #{name}. You are number #{num} in line."
+  end
 end
 
 def now_serving(katz_deli)
